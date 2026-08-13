@@ -12,6 +12,8 @@ Java-разработчик — микросервисы, REST API, событи
 
 **[rentcar-user-register](https://github.com/Andrey834/rentcar-user-register)** — REST API для управления автопрокатом: доменная модель на 8 бизнес-сущностей, 30+ эндпоинтов, OpenAPI/Swagger, Docker Compose.
 
+**[devops-shop-platform](https://github.com/Andrey834/devops-shop-platform)** — DevOps-инфраструктура для 3-tier приложения: Terraform (Yandex Cloud), Kubernetes с HPA/VPA, Ansible, Helm, Prometheus/Alertmanager, независимый CI/CD.
+
 ---
 
 💬 [Telegram](https://t.me/andrey86m)
