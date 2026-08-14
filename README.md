@@ -2,7 +2,7 @@
 
 Java-разработчик — микросервисы, REST API, событийная интеграция. Строю системы production-уровня: от архитектуры и бэкенда до CI/CD и эксплуатации.
 
-**Стек:** Java 17/21 · Spring Boot · Spring Cloud · Spring Security (OAuth2/JWT) · PostgreSQL · Redis · Docker · GitLab CI/Jenkins
+**Стек:** Java 17/21 · Spring Boot · Spring Cloud · Spring Security (OAuth2/JWT) · Kafka · PostgreSQL · Redis · Docker · Kubernetes · GitLab CI/Jenkins
 
 ---
 
@@ -13,6 +13,8 @@ Java-разработчик — микросервисы, REST API, событи
 **[rentcar-user-register](https://github.com/Andrey834/rentcar-user-register)** — REST API для управления автопрокатом: доменная модель на 8 бизнес-сущностей, 30+ эндпоинтов, OpenAPI/Swagger, Docker Compose.
 
 **[devops-shop-platform](https://github.com/Andrey834/devops-shop-platform)** — DevOps-инфраструктура для 3-tier приложения: Terraform (Yandex Cloud), Kubernetes с HPA/VPA, Ansible, Helm, Prometheus/Alertmanager, независимый CI/CD.
+
+**[task-manager-java](https://github.com/Andrey834/task-manager-java)** — REST API с событийными уведомлениями через Kafka: producer/consumer, ручной ack, retry с backoff через `@RetryableTopic`, Kafka в режиме KRaft, тесты на Testcontainers.
 
 ---
 
