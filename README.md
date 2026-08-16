@@ -2,11 +2,13 @@
 
 Java-разработчик — микросервисы, REST API, событийная интеграция. Строю системы production-уровня: от архитектуры и бэкенда до CI/CD и эксплуатации.
 
-**Стек:** Java 17/21 · Spring Boot · Spring Cloud · Spring Security (OAuth2/JWT) · Kafka · PostgreSQL · Redis · Docker · Kubernetes · GitLab CI/Jenkins
+**Стек:** Java 17/21/25 · Spring Boot · Spring Cloud · Spring Security (OAuth2/JWT) · Kafka · PostgreSQL · Redis · Docker · Kubernetes · GitLab CI/Jenkins · LangChain4j
 
 ---
 
 #### 🔨 Проекты
+
+**[self-healing-saga](https://github.com/Andrey834/self-healing-saga)** — распределённая обработка заказов: сага на хореографии + transactional outbox, 4 микросервиса на Spring Boot 4.1/Java 25. LLM-агент (LangChain4j + Yandex Cloud AI) решает retry/compensate/escalate при неоднозначных сбоях, с жёстким предохранителем и безопасным откатом при недоступности модели. Kafka в режиме KRaft, идемпотентные консьюмеры, Prometheus/Grafana из коробки, Testcontainers-тесты на каждый сервис.
 
 **[market-microservices](https://github.com/Andrey834/market-microservices)** — e-commerce платформа [podarok86.ru](https://podarok86.ru): 6 backend-сервисов на Spring Boot + Angular-витрина и админ-панель. Микросервисная архитектура с нуля (Eureka, Spring Cloud Gateway), собственный auth-service на Spring Authorization Server (OAuth2/OIDC), реактивный стек WebFlux/R2DBC, независимый CI/CD для 8 репозиториев.
 
