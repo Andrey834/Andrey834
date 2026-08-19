@@ -22,4 +22,8 @@ Java-разработчик — микросервисы, REST API, событи
 
 ---
 
+[![LeetCode Stats](https://leetcard.jacoblin.cool/andrey834)](https://leetcode.com/andrey834/)
+
+---
+
 💬 [Telegram](https://t.me/andrey86m)
