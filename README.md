@@ -4,7 +4,7 @@ Java-разработчик — микросервисы, REST API, событи
 
 🟢 Открыт к предложениям — full-time Java-разработчик, гибрид/удалённо.
 
-**Стек:** Java 17/21/25 · Kotlin · Spring Boot · Spring Cloud · Spring Security (OAuth2/JWT) · Kafka · PostgreSQL · Redis · Docker · Kubernetes · GitLab CI/Jenkins · LangChain4j
+**Стек:** Java 8/11/17/21/25 · Kotlin · Spring Boot · Spring Cloud · Spring Security (OAuth2/JWT) · Kafka · PostgreSQL · Redis · Docker · Kubernetes · GitLab CI/Jenkins · LangChain4j
 
 ---
 
